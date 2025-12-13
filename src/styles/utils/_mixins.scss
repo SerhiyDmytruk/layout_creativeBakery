@@ -29,7 +29,7 @@
 
   @media (min-width: $desktop-wide-min-width) {
     grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
-    padding-left: 0;
     padding-right: 0;
+    padding-left: 0;
   }
 }
