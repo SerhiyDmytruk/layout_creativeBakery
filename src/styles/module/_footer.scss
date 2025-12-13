@@ -3,7 +3,7 @@
 
     padding-top: 61px;
     padding-bottom: 56px;
-    background-color: #1C1A26;
+    background-color: $c-black;
 
     > * {
         grid-column: 1 / -1; 
@@ -39,7 +39,7 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 1;
-        color: #7F8096;
+        color: $c-dark-blue;
         text-transform: uppercase;
     }
 
@@ -63,7 +63,7 @@
 
     .copyrights {
         margin-top: 40px;
-        color: #7F8096;
+        color: $c-dark-blue;
     }
 
     @media (min-width: $tablet-min-width) {        

@@ -28,7 +28,7 @@
         font-size: 64px;
         font-weight: 400;
         line-height: 1.5;
-        color: #F9512E;
+        color: $c-orange;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: -2px;
@@ -39,7 +39,7 @@
             left: 50%;
             transform: translate(-50%, -39%);
 
-            width: 100vw;
+            width: 99vw;
 
             font-size: 80px;
         }
@@ -79,13 +79,13 @@
         width: 288px;
         height: 56px;
         margin: 0 auto;
-        border: 2px solid #F9512E;
+        border: 2px solid $c-orange;
         border-radius: 32px;
 
         font-size: 16px;
         font-weight: 500;
         line-height: 100%;
-        color: #F9512E;
+        color: $c-orange;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;

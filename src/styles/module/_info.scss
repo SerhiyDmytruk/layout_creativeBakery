@@ -18,7 +18,7 @@
         font-size: 48px;
         font-weight: 400;
         line-height: 1;
-        color: #F9512E;
+        color: $c-orange;
         text-transform: uppercase;
         letter-spacing: -2px;
 
@@ -76,7 +76,7 @@
             font-size: 96px;
             font-weight: 400;
             line-height: 85%;
-            color: #F9512E;
+            color: $c-orange;
             text-transform: uppercase;
             letter-spacing: -2px;
         }
@@ -85,7 +85,7 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5;
-            color: #7F8096;
+            color: $c-dark-blue;
         }
 
         &__bg {
