@@ -55,10 +55,11 @@
     }
 
     .hightlight {
-        color: #F9512E;
         display: flex;
-        align-items: center;
         gap: 8px;
+        align-items: center;
+
+        color: #F9512E;
         text-transform: uppercase;
     }
 

@@ -45,8 +45,8 @@
         }
 
         @media (min-width: $desktop-min-width) {
-            font-size: 136px;
             position: relative;
+            font-size: 136px;
         }
 
     }
@@ -60,13 +60,13 @@
         }
 
         @media (min-width: $desktop-min-width) {
-            max-width: 544px;
-
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
             z-index: -1;
+            top: 0;
+            right: 0;
+            left: 0;
+
+            max-width: 544px;
         }
     }
 
