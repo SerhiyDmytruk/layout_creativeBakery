@@ -17,7 +17,7 @@
         justify-content: flex-end;
 
         @media (min-width: $tablet-min-width) {
-            grid-column: span 3 / -1;
+            grid-column: span 4 / -1;
         }
     }
 
@@ -41,6 +41,7 @@
         justify-content: space-between;
 
         width: 100%;
+        max-width: 500px;
         margin: 0;
         padding: 0;
 
@@ -72,13 +73,13 @@
     }
 
     @media (min-width: $desktop-min-width) {
-        padding: 0 40px;
+        padding: 0 32px;
     }
 }
 
 ._menu-open {
     overflow: hidden;
-    
+
     .header {
 
         &__toggle {
