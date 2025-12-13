@@ -68,7 +68,7 @@ footer {
 
     &__right {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         
         .footer {
             &__name {
@@ -76,9 +76,15 @@ footer {
             }
 
             &__menu {
-                width: 47%;
-                margin-top: 0;
+                @media (min-width: $tablet-min-width) {
+                    width: 47%;
+                    margin-top: 0;
+                }
             }
+        }
+
+        @media (min-width: $tablet-min-width) {
+            flex-direction: row;
         }
 
         @media (min-width: $desktop-min-width) {        
@@ -95,6 +101,12 @@ footer {
         display: flex;
         gap: 16px;
         margin-top: 40px;
+
+        a:hover {
+            svg path {
+                fill: #fff;
+            }
+        }
 
         @media (min-width: $desktop-min-width) {
             gap: 45px;        

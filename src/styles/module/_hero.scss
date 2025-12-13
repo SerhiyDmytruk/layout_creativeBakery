@@ -2,9 +2,9 @@
     @include container;
     
     position: relative;
+    max-width: 1192px;
     padding-top: 32px;
     padding-bottom: 40px;
-    max-width: 1192px;
 
     > * {
         grid-column: 1 / -1;
@@ -25,18 +25,20 @@
         }
 
          @media (min-width: $desktop-wide-min-width) {
+            position: relative;
+            top: 27px;
+
             max-width: 292px;
             margin-top: 46px;
+
             line-height: 1.5;
-            top: 27px;
-            position: relative;
         }
     }
 
     &__title {
         font-size: 64px;
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 1;
         color: $c-orange;
         text-align: center;
         text-transform: uppercase;
