@@ -50,7 +50,7 @@
             left: 50%;
             transform: translate(-50%, -39%);
 
-            width: 99vw;
+            width: 89vw;
 
             font-size: 80px;
         }
@@ -119,6 +119,8 @@
 
         @include hover(color, #ffffff);
         @include hover(background-color, $c-orange);
+
+        @include focus(background-color, $c-orange-focus);
     }
 
     @media (min-width: $tablet-min-width) {

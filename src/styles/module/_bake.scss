@@ -110,6 +110,11 @@
             text-decoration: none;
             text-transform: uppercase;
 
+            @include hover(color, $c-orange);
+            @include hover(text-decoration, underline);
+
+            @include focus(color, $c-orange-focus);
+
             &::before {
                 content: '';
 

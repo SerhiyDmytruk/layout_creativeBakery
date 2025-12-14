@@ -22,8 +22,21 @@
     }
 
     &__toggle {
+        cursor: pointer;
         display: block;
         border: none;
+
+        &:hover {
+            svg path {
+                fill: $c-orange;
+            }
+        }
+
+        &:focus {
+            svg path {
+                fill: $c-orange-focus;
+            }
+        }
         
         .close {
             display: none;
@@ -56,7 +69,10 @@
             text-decoration: none;
 
             @include hover(color, $c-orange);
-            @include hover(transform, scale(1.2));
+            @include hover(text-decoration, underline);
+
+
+            @include focus(color, $c-orange-focus);
         }
 
         @media (min-width: $desktop-min-width) {

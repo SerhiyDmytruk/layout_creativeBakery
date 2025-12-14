@@ -98,6 +98,7 @@ footer {
         text-decoration: none;
 
         @include hover(color, $c-orange);
+        @include focus(color, $c-orange-focus);
     }
 
     .socials {
