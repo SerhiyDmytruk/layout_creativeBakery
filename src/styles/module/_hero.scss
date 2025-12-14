@@ -106,9 +106,19 @@
         text-transform: uppercase;
         letter-spacing: 2px;
 
+        &:hover {
+            svg path {
+                fill: #fff;
+            }
+        }
+
          @media (min-width: $desktop-min-width) {
             margin: 0;
         }
+
+
+        @include hover(color, #ffffff);
+        @include hover(background-color, $c-orange);
     }
 
     @media (min-width: $tablet-min-width) {

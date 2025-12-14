@@ -72,9 +72,12 @@
         }
 
         img {
+            cursor: pointer;
             max-height: 356px;
             margin-bottom: 13px;
             border-radius: 8px;
+
+            @include hover(transform, scale(1.1));
 
             @media (min-width: $tablet-min-width) {        
                 max-height: fit-content;

@@ -93,8 +93,11 @@ footer {
     }
 
     &__link {
+        display: block;
         color: #fff;
         text-decoration: none;
+
+        @include hover(color, $c-orange);
     }
 
     .socials {
